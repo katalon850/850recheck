@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>ecaf3740-f24e-4059-b493-8b443cdc183d</testSuiteGuid>
-   <testCaseLink>
-      <guid>60d1c8a0-979d-4409-bf2c-86f19024691c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/operations/ATD-1 Divide by Zero should be undefined</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

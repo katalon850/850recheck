@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Divide numbers
+Description: </description>
+   <name>AD2-4 Divide numbers</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10284&quot;:{&quot;name&quot;:&quot;IT - Approver Group&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/group?groupname\u003dIT+-+Approver+Group&quot;},&quot;customfield_10285&quot;:[{&quot;name&quot;:&quot;IT - Approver Group&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/group?groupname\u003dIT+-+Approver+Group&quot;}],&quot;customfield_10286&quot;:[{&quot;name&quot;:&quot;Cloud Ops - Approver Group&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/group?groupname\u003dCloud+Ops+-+Approver+Group&quot;}],&quot;customfield_10287&quot;:&quot;Feature: Devide\r\n\r\n  Scenario Outline: Devide by zero\r\n    Given The Calculator page is loaded successfully\r\n    When I divide \u003cfirstOperand\u003e by \u003csecondOperand\u003e\r\n    Then I get the result \u003cresult\u003e\r\n\r\n    Examples: \r\n      | firstOperand  | secondOperand | result |\r\n      | 27            | 20            | 1.35   |\r\n      | 785           | 25            | 31.4   |&quot;,&quot;customfield_10150&quot;:[],&quot;customfield_10018&quot;:[],&quot;customfield_10007&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10008&quot;:[{&quot;id&quot;:298,&quot;name&quot;:&quot;AD2 Sprint 1&quot;,&quot;state&quot;:&quot;active&quot;,&quot;boardId&quot;:184,&quot;goal&quot;:&quot;&quot;,&quot;startDate&quot;:&quot;2022-01-11T04:03:30.441Z&quot;,&quot;endDate&quot;:&quot;2022-01-25T04:03:00.000Z&quot;}],&quot;customfield_10009&quot;:&quot;1|i00e50:&quot;,&quot;customfield_10000&quot;:&quot;{}&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://katalon.atlassian.net/&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/project/10195&quot;,&quot;key&quot;:&quot;AD2&quot;,&quot;id&quot;:10195,&quot;name&quot;:&quot;Atlassian Demo 2&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Divide numbers&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;coty@katalon.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Coty Rosenblath&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/user?accountId\u003d5fa59f400aa811006f66b0db&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/issue/AD2-4/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[{&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/version/10320&quot;,&quot;id&quot;:10320,&quot;description&quot;:&quot;&quot;,&quot;name&quot;:&quot;Demo Release&quot;,&quot;isArchived&quot;:false,&quot;isReleased&quot;:false}],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/issue/69815&quot;,&quot;key&quot;:&quot;AD2-4&quot;,&quot;id&quot;:69815}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>Feature: Devide
+
+  Scenario Outline: Devide by zero
+    Given The Calculator page is loaded successfully
+    When I divide &lt;firstOperand> by &lt;secondOperand>
+    Then I get the result &lt;result>
+
+    Examples: 
+      | firstOperand  | secondOperand | result |
+      | 27            | 20            | 1.35   |
+      | 785           | 25            | 31.4   |</comment>
+   <testCaseGuid>57e2f05c-d018-42f1-b7ff-df08f1086d5e</testCaseGuid>
+</TestCaseEntity>
