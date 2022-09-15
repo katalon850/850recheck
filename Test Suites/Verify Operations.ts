@@ -12,31 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>437cc529-6e28-4c94-ae29-e1709755d800</testSuiteGuid>
    <testCaseLink>
-      <guid>665d328f-aff4-4e66-83d3-858388a521f0</guid>
+      <guid>0c774a7f-1179-4e05-865a-c3cdb059ec06</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/operations/Verify Divide</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ce29e1c6-e375-4907-89e0-02bb907017d6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/operations/Verify Minus</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bc94eccf-0089-4a03-a65b-8662d83d3447</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/operations/Verify Multiply</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bb746f7d-e860-43c0-88c1-d21e6bba82a6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/operations/Verify Plus</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
